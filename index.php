@@ -18,4 +18,23 @@ $AberonthesameGod=array_count_values($Aberon);
 print_r($AberonthesameGod);
 echo "<br>";
 print_r(array_slice($Aberon,3));
+///////////////////
+//////////////////
+echo "<br>";
+$Aberon=-5;
+$vape=abs($Aberon);
+echo $vape;
+echo "<br>";
+$val=2.3433443;
+$foo=round($val);
+echo $foo;
+echo "<br>";
+$AberonthesameGod=5.7;
+$Aberon=ceil($AberonthesameGod);
+echo $Aberon;
+echo "<br>";
+$Aberon=5.5;
+$AberonthesameGod=floor($Aberon);
+echo $AberonthesameGod;
+echo "<br>";
 ?>
